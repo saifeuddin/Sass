@@ -1,0 +1,145 @@
+.p {
+  font-weight: 700;
+}
+
+.div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+  border: 1px solid #000;
+}
+
+@media (max-width: 400px) {
+  .div {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+.div-main-p {
+  border: 1px solid #000;
+}
+
+.div .div-main-p {
+  border: 3px solid #000;
+}
+
+.div .b, .div .b1 {
+  border: 1px solid #000;
+  display: block;
+}
+
+.main {
+  border: 1px solid #000;
+}
+
+.main .div-main-p1 {
+  border: 3px solid #000;
+}
+
+.main .pp:hover:not(.ppp) {
+  background-color: #000;
+}
+
+.body {
+  background: #000000;
+  color: #ffffff;
+  background: #8b3f3f 0;
+  color: #ffffff;
+}
+
+.menu-btn__burger.open {
+  background-color: #000000;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
